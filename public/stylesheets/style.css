@@ -68,41 +68,52 @@ body {
 }
 
 /* notify section */
-.notify form{
-  background: #FFF;
-  width: 78%;
-  margin: 0 auto;
-  border:1px solid #EEE;
-}
-.notify input[type="text"]{
-  width: 80%;
-  padding:12px;
-  outline: none;
-  border:none;
-  color:#3B3B3B;
-  font-size:0.875em;
-  font-family: 'Roboto',arial,sans-serif;
-}
-.notify input[type="submit"]{
-  padding: 12px 23px;
-  border:none;
-  background:#3B3B3B;
-  font-family: 'Roboto',arial,sans-serif;
-  color:#FFF;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  cursor:pointer;
-} 
-.notify input[type="submit"]:hover{
-  background:#555;
-}
-.notify{
-  width:70%;
-  margin: 2em auto 2em auto;
-}
 .centers{
   text-align: center;
+}
+#main {
+  margin: 1px auto 0;
+  text-align: center; 
+}
+#main #mc_embed_signup {
+  clear: both;
+  margin: 48px auto 18px;
+  width: 50%; 
+}
+#main #mc_embed_signup:before,
+#main #mc_embed_signup:after {
+    content: " ";
+    display: table;
+}
+#main #mc_embed_signup:after {
+    clear: both;
+}
+
+#main #mc_embed_signup input {
+  display: inline-block;
+  float: left;
+}
+#main #mc_embed_signup input[type="email"] {  
+  font-size: 15px;
+  height: 54px;
+  line-height: 30px;
+  padding: 12px 15px;
+  border-radius: 3px 0 0 3px; 
+  background: #727272;
+  background: rgba(255, 255, 255, .2);  
+  width: 70%;
+}
+#main #mc_embed_signup input[type="submit"] {
+  font-size: 15px;
+  line-height: 30px;
+  height: 54px;
+  padding: 12px 30px;
+  margin: 0 0 18px 0;
+  border-radius: 0 3px 3px 0; 
+  background: #000;
+  background: #812eaa; 
+  width: 30%; 
+}
+#main #mc_embed_signup input[type="submit"]:hover {
+  background: #812eaa;
 }
