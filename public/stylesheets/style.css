@@ -1,8 +1,156 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Titillium Web', serif;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
 }
 
-a {
-  color: #00B7FF;
+.navsty .navbar-brand {
+  height: 80px;
+}
+
+.navsty .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navsty .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.navbar-alignit .navbar-header {
+    -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
+}
+.navbar-alignit .navbar-brand {
+  top: 50%;
+  display: block;
+  position: relative;
+  height: auto;
+  transform: translate(0,-50%);
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  z-index: 9999;
+}
+
+.navbar-default {
+    background-color: rgb(69, 20, 89);
+    border-color: #E7E7E7;
+}
+
+#landing{
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+#main-logo{
+  height: 110px;
+}
+
+#app-demo{
+  height: 360px;
+}
+
+.slogan{
+  padding-top: 20px;
+  font-size: 34px;
+  text-align: center;
+  color: rgb(69, 20, 89);
+}
+
+.slogan-div{
+  padding-top: 33px;
+}
+
+#addBud{
+  padding-top: 60px;
+  background-color: rgb(218, 208, 222);
+  padding-bottom: 50px;
+}
+
+.add-budget{
+  width: 230px;
+  height: 180px;
+}
+
+.addTitle{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.addText{
+  font-size: 30px;
+}
+
+#dollar{
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.dollar-img{
+  height: 220px;
+}
+
+.dollarTitle{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.dollarText{
+  text-align: right;
+  font-size: 27px;
+}
+
+.lock-img{
+ width: 250px;
+  height: 240px;
+}
+
+.lockTitle{
+  font-size: 40px;
+  font-weight: bold; 
+}
+
+.lockText{
+  font-size: 30px;
+}
+
+#future-months{
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.monthsTitle{
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.monthsText{
+  text-align: right;
+  font-size: 30px;
+}
+
+.alertsTitle{
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.alertsText{
+  font-size: 30px;
+}
+
+.graphs-img{
+  height: 260px;
 }
