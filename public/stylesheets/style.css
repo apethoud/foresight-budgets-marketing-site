@@ -154,3 +154,39 @@ body {
 .graphs-img{
   height: 260px;
 }
+
+#sub-form{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.coming-form{
+  text-align: center;
+    font-weight: bold;
+  font-size: 40px;
+  color: rgb(69, 20, 89);
+}
+
+.addborder {
+  border: 1px solid #000;
+  width: 350px;
+  height: 46px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.btn.btn-square {
+  border-radius: 0;
+  background-color: rgb(69, 20, 89);
+  color: rgb(218, 208, 222);
+
+}
+
+.formspace{
+  padding-top: 40px;
+}
+
+#sub-form{
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
