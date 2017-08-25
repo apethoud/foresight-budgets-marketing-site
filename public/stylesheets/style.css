@@ -219,10 +219,11 @@ footer p {
 
 @media (max-width: 667px) {
  #main-logo{
-  width: 290px;
+  width: 280px;
  }
  #app-demo{
-  width: 290px;
+  width: 280px;
+  height: 200px
  }
  .addborder{
   width: 190px;
