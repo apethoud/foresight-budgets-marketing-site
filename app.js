@@ -11,7 +11,7 @@ var users = require('./routes/users');
 
 var app = express();
 
-mongoose.connect('mongodb://heroku_j078qbzf:heroku_j078qbzf@ds157873.mlab.com:57873/heroku_j078qbzf')
+mongoose.connect('mongodb://heroku_j078qbzf:9i96v37u77hm4deleed5k1amnl@ds157873.mlab.com:57873/heroku_j078qbzf')
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

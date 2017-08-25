@@ -215,3 +215,16 @@ footer p {
   padding-bottom: 90px;
   padding-top: 50px;
 }
+
+
+@media (max-width: 667px) {
+ #main-logo{
+  width: 290px;
+ }
+ #app-demo{
+  width: 290px;
+ }
+ .addborder{
+  width: 190px;
+ }
+}
