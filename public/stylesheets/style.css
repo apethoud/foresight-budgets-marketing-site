@@ -190,3 +190,28 @@ body {
   padding-top: 90px;
   padding-bottom: 60px;
 }
+
+
+footer {
+  margin-top: 50px;
+  background-color: rgb(69, 20, 89);
+}
+
+footer::before {
+  content: "";
+  display: block;
+  width: 90%;
+  margin-bottom: 20px;
+  border-top: 1px solid #dedede;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p {
+  text-align: center;
+  color: rgb(218, 208, 222);
+  letter-spacing: 0.3px;
+  font-size: 30px;
+  padding-bottom: 90px;
+  padding-top: 50px;
+}
